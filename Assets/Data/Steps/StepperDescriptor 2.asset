@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0066926d5336fd48bfc71a8a740d796, type: 3}
+  m_Name: StepperDescriptor 2
+  m_EditorClassIdentifier: 
+  animationControlerSelector: Step2Object
+  animatedClipSelector: Cube 1
+  triggerSelectors:
+  - Step2Triger_1
+  - Step2Triger_2
+  - Step2Triger_3
+  instrumentSelectors:
+  - Instrument_2

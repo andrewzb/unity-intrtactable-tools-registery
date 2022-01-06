@@ -9,12 +9,6 @@ using System.Reflection;
 using UnityEngine.Events;
 using UnityEngine;
 
-/*
-public class SomeEventArgs : EventArgs {
-
-}
-*/
-
 public class ChapterContinuityController : MonoBehaviour {
     [SerializeField] private ChapterContinuity chapterContinuity;
     [SerializeField] private UIControler uiControler;
