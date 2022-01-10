@@ -12,7 +12,7 @@ public class StepConfiguratorEditor : Editor {
 
     private void DrawButton() {
         EditorGUILayout.BeginHorizontal();
-        if (GUILayout.Button("Setup")) {
+        if (GUILayout.Button("Auto Setup")) {
             stepConfigurator.SetupStep();
             SceneView.RepaintAll();
         }
